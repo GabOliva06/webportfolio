@@ -1,0 +1,17 @@
+*{
+	font-family: 'Play', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #495057;
+	text-decoration-color: white;
+}
+.intro{
+	font-size: 25px;
+}
+.nav{
+	background-color: #343a40;
+}
+nav>div>ul>li>a{
+	background-color: #343a40;
+}
