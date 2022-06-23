@@ -1,17 +1,73 @@
 *{
-	font-family: 'Play', sans-serif;
+	font-family: 'Special Elite', cursive;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	background-color: #495057;
-	text-decoration-color: white;
+	font-size: 20px;
 }
-.intro{
-	font-size: 25px;
+.text-responsive{
+	font-weight: bolder;
+	background-color: transparent;
+	font-size: calc(100% + .5vw + .5vh);
 }
-.nav{
-	background-color: #343a40;
+.sb{
+	font-weight: bolder;
 }
-nav>div>ul>li>a{
-	background-color: #343a40;
+.main{
+	width: 100%;
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%,rgba(0, 0, 0, 0.5)50%), url('images/background.jpg');
+	background-position: center;
+	background-size: cover;
+	min-height: 105vh;
+}
+.navbar-toggler .navbar-toggler-icon{
+     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+#carouselControls{
+	margin-top: 10vh;
+	max-height:100vh;
+	max-width: 90vh;
+}
+.scroll{
+	max-height: 50vh;
+	max-width: 50vh;
+}
+#front{
+	min-height: 70vh;
+}
+a:hover{
+	text-decoration: none;
+}
+.image {
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.scroll:hover .image{
+  opacity: 0.3;
+}
+.project{
+	min-height: 105vh;
+}
+.contact{
+	max-height: 100vh;
+	max-width: 70vh;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	padding: 1rem;
+}
+.btn{
+	border-color: white;
+}
+.gmaps{
+	overflow:hidden;
+	background:none!important;
+}
+.button1{
+	background-image: url('images/contact-bg.jpg');
+	background-size: cover;
+	width: 100%;
+	background-position: center;
 }
