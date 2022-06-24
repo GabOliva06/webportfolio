@@ -32,6 +32,12 @@
 	max-height: 50vh;
 	max-width: 50vh;
 }
+.scroll1{
+	padding-top: 15vh;
+}
+.scroll2{
+	padding-top: 5vh;
+}
 #front{
 	min-height: 70vh;
 }
@@ -65,9 +71,10 @@ a:hover{
 	overflow:hidden;
 	background:none!important;
 }
-.button1{
+.contact-bg{
 	background-image: url('images/contact-bg.jpg');
 	background-size: cover;
 	width: 100%;
 	background-position: center;
+	min-height: 105vh;
 }
